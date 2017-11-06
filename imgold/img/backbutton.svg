@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43 (38999) - http://www.bohemiancoding.com/sketch -->
+    <title>backbutton</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="48.6 25.92 46.08 23.4 36 33.48 25.92 23.4 23.4 25.92 33.48 36 23.4 46.08 25.92 48.6 36 38.52 46.08 48.6 48.6 46.08 38.52 36"></polygon>
+        <filter x="-95.2%" y="-47.6%" width="290.5%" height="290.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(1.000000, 1.000000)">
+            <circle id="Combined-Shape" fill="#292E40" cx="36" cy="36" r="36"></circle>
+            <g id="Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#DAC2AB" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,366 @@
+/*navbar and footer party*/
+.navwrap {
+		/*border: 1px red solid;*/
+		background-color: #292e40;
+}
+.navbar-default .navbar-nav>li>a {
+		color: white !important;
+		opacity: 0.5 !important;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+		opacity: 1 !important;
+		background-color: #292e40 !important;
+}
+/*pc*/
+@media (min-width: 992px) {
+		.naturali-contain {
+				width: 900px;
+				margin: 0 auto;
+				/*border: 1px solid red;*/
+		}
+		.naturali-nav {
+				height: 60px;
+				line-height: 60px;
+				font-size: 12px;
+				font-weight: 300;
+				padding-top: 5px;
+		}
+		.naturali-logo {
+				width: 98px;
+				height: 12px;
+		}
+		.navbar-brand {
+				padding-top: 18px;
+				padding-left: 0;
+		}
+		.naturali-menu {
+				margin-left: 400px;
+				/*border: 1px solid red;*/
+		}
+
+
+		/* ======================
+		----- EIGHTH SECTION------
+		=======================*/
+		.eighth-section {
+				height: auto;
+				padding: 80px 0 85px;
+				/*border: 1px red solid;*/
+		}
+
+		.eighth-item-header {
+				font-size: 24px;
+				letter-spacing: 4px;
+		}
+		.eighth-item-input {
+				margin: 120px 0 80px;
+				height: 50px;
+				/*border: 1px red solid;*/
+		}
+		.eighth-item-btn {
+				width: 108px;
+				height: 48px;
+				background-color: #62ccf5;
+				border: solid 2px #62ccf5;
+				margin: 0 auto 36px;
+				font-size: 12px;
+				text-align: center;
+				line-height: 48px;
+				color: white;
+				cursor: pointer;
+		}
+		.eighth-item-footer {
+				font-size: 12px;
+				font-weight: 300;
+				line-height: 1.33;
+				opacity: 0.54;
+		}
+		input {
+				border-top: none !important;
+				border-left: none !important;
+				border-right: none !important;
+				border-bottom: 1px solid white !important;
+				box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
+				height: 46px;
+				width: 400px;
+				padding: 18px;
+				opacity: 0.5;
+		}
+		input:focus {
+				outline: none !important;
+		}
+
+
+		/* ======================
+		----- NINTH SECTION------
+		=======================*/
+		.ninth-section {
+				height: auto;
+				padding: 38px 0;
+				/*border: 1px red solid;*/
+				background-color: #292e40;
+				color: white;
+		}
+
+		.ninth-item-contain {
+				height: 132px;
+				width: 380px;
+				/*border: 1px red solid;*/
+				padding: 0;
+				position: relative;
+				left: 0;
+		}
+
+		.ninth-item-contain2 {
+				height: 132px;
+				width: 340px;
+				/*border: 1px red solid;*/
+				right: 0;
+				position: absolute;
+		}
+
+		.ninth-item-contain div {
+				width: 98px;
+				height: 12px;
+				box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+				/*border: 1px red solid;*/
+				background-image: url("../img/pc/p1/Naturaliw_logo.png");
+				background-repeat: no-repeat;
+				background-size: cover;
+		}
+
+		.ninth-item-contain ul {
+				font-size: 12px;
+				font-weight: 300;
+				line-height: 1.0;
+				letter-spacing: 2px;
+				padding: 0;
+				margin-top: 40px;
+				opacity: 0.6;
+		}
+
+		.ninth-item-contain li {
+				margin-top: 16px;
+		}
+
+		.ninth-item-contain2 p {
+				font-size: 12px;
+				letter-spacing: 2px;
+				margin-bottom: 18px;
+				opacity: 0.6;
+		}
+
+		.ninth-item-contain2 span {
+				margin-right: 24px;
+				font-size: 12px;
+				font-weight: lighter;
+		}
+		.ninth-item-contain2 span img{
+				margin-right: 10px;
+				width: 20px;
+				height: 20px;
+		}
+
+		.er {
+				width: 48px;
+				height: 48px;
+				margin: 0 auto;
+				/*box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);*/
+				/*background-color: #1cc4f8;*/
+				/*background: url("../img/pc/p1/yingyongbao_pic.png");*/
+		}
+		.er img {
+				width: 48px;
+				height: 48px;
+		}
+
+		.list-two {
+				padding: 0;
+		}
+
+		.list-two li {
+				float: left;
+				margin-top: 10px;
+				margin-right: 24px;
+				/*border: 1px solid red;*/
+				width: 50px;
+				height: 64px;
+				text-align: center;
+		}
+
+		.er-title {
+				font-size: 10px;
+				font-weight: lighter;
+		}
+
+		.ninth-section ul {
+				list-style: none;
+		}
+}
+
+/*mobile*/
+@media (max-width: 992px) {
+		.logoN {
+				width: 18px;
+				height: 18px;
+		}
+		.naturali-menu {
+				/*border: 1px solid yellow;*/
+				font-size: 14px;
+				margin: 48px auto;
+				width: 312px;
+		}
+		.nav>li>a {
+				padding: 0 !important;
+		}
+		.naturali-menu li {
+				margin-bottom: 46px;
+		}
+		.naturali-nav {
+				height: 30px;
+				line-height: 30px;
+				font-size: 12px;
+				font-weight: 300;
+				padding-top: 5px;
+		}
+		.naturali-logo {
+				margin-top: 22px;
+				width: 98px;
+				height: 12px;
+		}
+		.navbar-toggle {
+				/*汉堡菜单位置和样式*/
+				padding: 0 !important;
+				margin-top: 12px;
+				margin-left: 0;
+				border: none !important;
+		}
+
+		.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+				background-color: #292e40 !important;
+				/*此处改导航汉堡菜单*/
+		}
+		.navbar-brand {
+				padding: 0 !important;
+		}
+		.naturali-contain {
+				width: 312px;
+				margin: 0 auto;
+				/*border: 1px solid red;*/
+		}
+		#example-navbar-collapse1 {
+				/*下拉导航菜单样式*/
+				background-color: #292e40 !important;
+				height: 900px;
+				padding: 0 !important;
+				width: 100%;
+		}
+
+		/*connect*/
+		.connect {
+				padding: 60px 0 68px;
+				text-align: center;
+		}
+		.connect-title {
+				font-size: 24px;
+				margin-bottom: 108px;
+		}
+		input {
+				border-top: none !important;
+				border-left: none !important;
+				border-right: none !important;
+				border-bottom: 1px solid white !important;
+				box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
+				-webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
+				-moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12);
+				/*display: inline-block !important;*/
+				/*border-radius:1px;*/
+				height: 36px;
+				width: 300px;
+				padding: 12px 9px;
+				opacity: 0.5;
+		}
+		input:focus {
+				outline: none !important;
+		}
+		.connect-item-btn {
+				width: 108px;
+				height: 48px;
+				border-radius: 4px;
+				background-color: #62ccf5;
+				border: solid 2px #62ccf5;
+				margin: 128px auto 20px;
+				font-size: 12px;
+				color: white;
+				line-height: 48px;
+		}
+		.connect-item-footer {
+				font-size: 12px;
+				opacity: 0.26;
+				font-weight: 300;
+				line-height: 1.0;
+		}
+		/*footer*/
+		.footer {
+				padding: 70px 0 40px;
+				background-color: #292e40;
+				color: white;
+		}
+		.footer-title:first-child {
+				text-align: center;
+				margin-bottom: 52px;
+		}
+		.footer-title:last-child {
+				margin-bottom: 34px;
+		}
+		.footer ul {
+				width: 220px;
+				/*border: 1px red solid;*/
+				margin: 0 auto;
+				padding: 0;
+				font-size: 12px;
+				letter-spacing: 1px;
+				overflow: hidden;
+				padding-bottom: 2px;
+		}
+		.footer ul li:not(:last-child) {
+				margin-bottom: 30px;
+		}
+		.footer ul li p {
+				margin-top: 12px;
+		}
+		.footer-contain:last-child {
+				margin-top: 60px;
+		}
+		.footer-icon {
+				height: 60px;
+				width: 50px;
+				/*border: 1px solid red;*/
+				float: left;
+				text-align: center;
+		}
+		.footer-icon:nth-child(odd) {
+				margin-left: 20px;
+		}
+		.footer-icon:nth-child(even) {
+				margin-left: 80px;
+		}
+		.footer-icon img{
+				height: 44px;
+				width: 44px;
+				margin: 0 auto 6px;
+		}
+		.footer-icon p{
+				font-size: 10px;
+				font-weight: 300;
+				letter-spacing: 0;
+		}
+		.icon-mobile {
+				width: 24px;
+				height: 24px;
+		}
+		.footer-title img {
+				width: 100px;
+				height: 14px;
+		}
+}
